@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Responsive Multipage Education Website Using hTML, CSS & JavaScript
+    </title>
+
+    <!-- ICONSCOUT CDN-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <!-- GOOGLE FONTS(MONTSERRAT) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- SWIPER JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      body{
+        background-image: url("Images/bg-texture.png");
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav_container">
+        <a href="Index.html"><h4>H R P G COLLEGE</h4></a>
+        <ul class="nav_menu">
+          <li><a href="Index.html" target="_blank">Home</a></li>
+          <li><a href="about.html" target="_blank">About</a></li>
+          <li><a href="courses.html" target="_blank">Courses</a></li>
+          <li><a href="contact.html" target="_blank">Contact</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+      </div>
+    </nav>
+    <!--============ END OF NAVBAR =============-->
+
+    <header>
+      <div class="container header_container">
+        <div class="header_left">
+          <h1>Grow your skills to advance your career path</h1>
+          <p>
+            "Unlock your potential, broaden your horizons, and ignite your passion for learning at [College Name]. Join us to cultivate essential skills, embrace new challenges, and embark on a transformative educational journey that will empower you for a lifetime of success."
+          </p>
+          <a href="courses.html" class="btn btn-primary">Get Started</a>
+        </div>
+
+        <div class="header_right">
+          <div class="header_right-image">
+            <img src="Images/header.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ============== END OF HEADER =============== -->
+
+    <section class="categories">
+      <div class="container categories_container">
+        <div class="categories_left">
+          <h1>Categories</h1>
+          <p>
+            "Discover a world of opportunities with our diverse range of courses including BA, B.Com, BCA, and B.Tech. Fuel your knowledge, shape your future, and become a well-rounded professional equipped for today's dynamic industries."
+          </p>
+          <a href="#" class="btn">Learn more</a>
+        </div>
+        <div class="categories_right">
+          <article class="category">
+            <span class="category_icon"
+              ><i class="uil uil-bitcoin-circle"></i
+            ></span>
+            <h5>Blockchain</h5>
+            <p>
+               become part of the decentralized future, where transparency, security, and innovation converge."
+            </p>
+          </article>
+          <article class="category">
+            <span class="category_icon"><i class="uil uil-palette"></i></span>
+            <h5>Graphic Design</h5>
+            <p>
+              artistry meets purpose to shape captivating visuals that leave a lasting impact."
+            </p>
+          </article>
+          <article class="category">
+            <span class="category_icon"
+              ><i class="uil uil-rupee-sign"></i
+            ></span>
+            <h5>Finance</h5>
+            <p>
+              building wealth, and shaping a prosperous future."
+            </p>
+          </article>
+          <article class="category">
+            <span class="category_icon"
+              ><i class="uil uil-shopping-cart-alt"></i
+            ></span>
+            <h5>Marketing</h5>
+            <p>
+              "leave an indelible mark on the ever-evolving market."
+            </p>
+          </article>
+          <article class="category">
+            <span class="category_icon"><i class="uil uil-music"></i></span>
+            <h5>Music</h5>
+            <p>
+              "reate an extraordinary symphony that resonates with the soul."
+            </p>
+          </article>
+          <article class="category">
+            <span class="category_icon"
+              ><i class="uil uil-puzzle-piece"></i
+            ></span>
+            <h5>Business</h5>
+            <p>
+              "unleash boundless opportunities for success."
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- ================= E=D OF CATEGORIES ================= -->
+
+    <section class="courses">
+      <h2>Our Popular Courses</h2>
+      <div class="container courses_container">
+        <article class="course">
+          <div class="course_image">
+            <img src="Images/course1.jpg" alt="" />
+          </div>
+          <div class="course_info">
+            <h4>Responsive Social Media Website UI Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis adipisci magnam odit tenetur omnis quos. Harum
+              consequatur aperiam iusto doloribus!
+            </p>
+            <a href="courses.html" class="btn btn-primary"> Learn More</a>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="Images/course2.jpg" alt="" />
+          </div>
+          <div class="course_info">
+            <h4>Responsive SmartHome Website Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis adipisci magnam odit tenetur omnis quos. Harum
+              consequatur aperiam iusto doloribus!
+            </p>
+            <a href="courses.html" class="btn btn-primary"> Learn More</a>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="Images/course3.jpg" alt="" />
+          </div>
+          <div class="course_info">
+            <h4>Responsive Admin UI Dashboard Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis adipisci magnam odit tenetur omnis quos. Harum
+              consequatur aperiam iusto doloribus!
+            </p>
+            <a href="courses.html" class="btn btn-primary"> Learn More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- =============== END OF COURSES ============== -->
+
+    <section class="faqs">
+      <h2>Frequently Asked Questions</h2>
+      <div class="container faqs_container">
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus quos libero asperiores nihil laboriosam consequatur
+              quaerat necessitatibus sunt sapiente ab qui reprehenderit
+              exercitationem, eaque repudiandae perspiciatis voluptate vel modi
+              blanditiis.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus quos libero asperiores nihil laboriosam consequatur
+              quaerat necessitatibus sunt sapiente ab qui reprehenderit
+              exercitationem, eaque repudiandae perspiciatis voluptate vel modi
+              blanditiis.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus quos libero asperiores nihil laboriosam consequatur
+              quaerat necessitatibus sunt sapiente ab qui reprehenderit
+              exercitationem, eaque repudiandae perspiciatis voluptate vel modi
+              blanditiis.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus quos libero asperiores nihil laboriosam consequatur
+              quaerat necessitatibus sunt sapiente ab qui reprehenderit
+              exercitationem, eaque repudiandae perspiciatis voluptate vel modi
+              blanditiis.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus quos libero asperiores nihil laboriosam consequatur
+              quaerat necessitatibus sunt sapiente ab qui reprehenderit
+              exercitationem, eaque repudiandae perspiciatis voluptate vel modi
+              blanditiis.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus quos libero asperiores nihil laboriosam consequatur
+              quaerat necessitatibus sunt sapiente ab qui reprehenderit
+              exercitationem, eaque repudiandae perspiciatis voluptate vel modi
+              blanditiis.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus quos libero asperiores nihil laboriosam consequatur
+              quaerat necessitatibus sunt sapiente ab qui reprehenderit
+              exercitationem, eaque repudiandae perspiciatis voluptate vel modi
+              blanditiis.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus quos libero asperiores nihil laboriosam consequatur
+              quaerat necessitatibus sunt sapiente ab qui reprehenderit
+              exercitationem, eaque repudiandae perspiciatis voluptate vel modi
+              blanditiis.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus quos libero asperiores nihil laboriosam consequatur
+              quaerat necessitatibus sunt sapiente ab qui reprehenderit
+              exercitationem, eaque repudiandae perspiciatis voluptate vel modi
+              blanditiis.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus quos libero asperiores nihil laboriosam consequatur
+              quaerat necessitatibus sunt sapiente ab qui reprehenderit
+              exercitationem, eaque repudiandae perspiciatis voluptate vel modi
+              blanditiis.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- ============== END OF FAQs ==============-->
+
+    <section class="container testimonials_container mySwiper">
+      <h2>Students' Testimonials</h2>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="Images/avatar1.jpg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h5>Diana Ayi</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              dolores doloremque accusantium sequi. Cumque, beatae nobis!
+              Repudiandae, unde incidunt sint aut non illum suscipit repellat!
+              In nesciunt voluptatum obcaecati sapiente.
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="Images/avatar2.jpg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h5>Diana Ayi</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              dolores doloremque accusantium sequi. Cumque, beatae nobis!
+              Repudiandae, unde incidunt sint aut non illum suscipit repellat!
+              In nesciunt voluptatum obcaecati sapiente.
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="Images/avatar3.jpg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h5>Ernest Achiever</h5>
+            <small>Developer</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              dolores doloremque accusantium sequi. Cumque, beatae nobis!
+              Repudiandae, unde incidunt sint aut non illum suscipit repellat!
+              In nesciunt voluptatum obcaecati sapiente.
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="Images/avatar4.jpg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h5>Edem Quist</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              dolores doloremque accusantium sequi. Cumque, beatae nobis!
+              Repudiandae, unde incidunt sint aut non illum suscipit repellat!
+              In nesciunt voluptatum obcaecati sapiente.
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="Images/avatar5.jpg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h5>Shabana</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              dolores doloremque accusantium sequi. Cumque, beatae nobis!
+              Repudiandae, unde incidunt sint aut non illum suscipit repellat!
+              In nesciunt voluptatum obcaecati sapiente.
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="Images/avatar6.jpg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h5>Jane Doe</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              dolores doloremque accusantium sequi. Cumque, beatae nobis!
+              Repudiandae, unde incidunt sint aut non illum suscipit repellat!
+              In nesciunt voluptatum obcaecati sapiente.
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- ============== END OF TESTIMONIALS ============== -->
+
+    <!-- ============== FOOTER ============ -->
+    <footer>
+        <div class="container">
+            <div class="footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo"><h4>H R P G COLLEGE</h4></a>
+                <p>"Discover a world of opportunities with our diverse range of courses including BA, B.Com, BCA, and B.Tech. Fuel your knowledge, shape your future, and become a well-rounded professional equipped for today's dynamic industries."</p>
+            </div>
+
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_3">
+                <h4>Primacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+91 9026464067</p>
+                    <p>raik46080@gmail.com</p>
+                </div>
+
+                <ul class="footer_socials">
+                    <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                    <li><a href="https://instagram.com/kartikey_5858?igshid=MzNlNGNkZWQ4Mg=="><i class="uil uil-instagram-alt"></i></a></li>
+                    <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                    <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
+                </ul>
+
+            </div>
+        </div>
+            <div class="footer_copyright">
+                <small>Copyright &copy; Kartikey Rai</small>
+            </div>
+        </div>
+    </footer>
+
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+   <!-- Initialize Swiper -->
+   <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      // when window width is >= 600px
+      breakpoints: {
+        600: {
+            slidesPerView: 3
+        }
+      }
+    });
+
+  </script>
+</html>
